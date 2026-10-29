@@ -3,28 +3,28 @@
 class Seabridge < Formula
   desc "Connects cameras and building equipment on a property's network to Seayora"
   homepage "https://seayora.com/download/bridge"
-  version "1.7.0"
+  version "1.8.0"
   license :cannot_represent
 
   on_macos do
     on_arm do
-      url "https://seayora.com/api/cameras/bridge/download/seayora-bridge-1.7.0-darwin-arm64.tar.gz", using: :nounzip
-      sha256 "2bbc806f9bb00cb3f14e301db201c7131cfc7e1f36d7c97f31c7ab06543c2832"
+      url "https://seayora.com/api/cameras/bridge/download/seayora-bridge-1.8.0-darwin-arm64.tar.gz", using: :nounzip
+      sha256 "1aea797c64e450099d5914de725054126d10e4fcb936b4ac3d3bee8d65f8de6c"
     end
     on_intel do
-      url "https://seayora.com/api/cameras/bridge/download/seayora-bridge-1.7.0-darwin-x64.tar.gz", using: :nounzip
-      sha256 "ead622355587fa28714333e13a4bacbd2bce3924205fecf92a1a48b44fa65bb5"
+      url "https://seayora.com/api/cameras/bridge/download/seayora-bridge-1.8.0-darwin-x64.tar.gz", using: :nounzip
+      sha256 "8577e857c0846bb39087526fa7912a15d50476ec55f5e02f1af26ef083e1e586"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://seayora.com/api/cameras/bridge/download/seayora-bridge-1.7.0-linux-arm64.tar.gz", using: :nounzip
-      sha256 "c1d20b52d02adfcaa70da659874f16f112406594e014ed0166c5d33a42e74a4b"
+      url "https://seayora.com/api/cameras/bridge/download/seayora-bridge-1.8.0-linux-arm64.tar.gz", using: :nounzip
+      sha256 "1f866a42e3262b7347888204134605bec39f8e00743bcb3897705624c21abf81"
     end
     on_intel do
-      url "https://seayora.com/api/cameras/bridge/download/seayora-bridge-1.7.0-linux-x64.tar.gz", using: :nounzip
-      sha256 "2649022febf0a8e078192050dde75ce1a0ef3309af2ee63c120ebe5d0f335191"
+      url "https://seayora.com/api/cameras/bridge/download/seayora-bridge-1.8.0-linux-x64.tar.gz", using: :nounzip
+      sha256 "249087904b0d0bfc8162a3c684e3cce7d0d52837d5c47c0492021309026d2bd9"
     end
   end
 

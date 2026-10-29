@@ -29,7 +29,7 @@ use one of the other ways on [seayora.com/download/bridge](https://seayora.com/d
 
 ## What this formula does
 
-It downloads the same signed package as the download page (1.7.0 today) and
+It downloads the same signed package as the download page (1.8.0 today) and
 keeps it packed. The first `seabridge` unpacks it as root and runs the package's own
 installer, which checks every file against Seayora's signature before installing
 anything. The bridge then updates itself with releases Seayora signs, so
